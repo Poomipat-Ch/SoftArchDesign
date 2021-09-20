@@ -2,10 +2,10 @@ package LSP.com.solid.lsp;
 
 public interface Shape {
 
-    public void setWidth(int width);
-    public void setHeight(int height);
-    public int getWidth();
-    public int getHeight();
+    void setWidth(int width);
+    void setHeight(int height);
+    int getWidth();
+    int getHeight();
 
-    public int getArea();
+    int getArea();
 }
