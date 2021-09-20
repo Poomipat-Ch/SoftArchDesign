@@ -7,8 +7,7 @@ public class Square implements Shape {
         this.setSide(side);
     }
 
-    public void setWidth(int width) {this.setSide(width);
-    }
+    public void setWidth(int width) {this.setSide(width);}
 
     public int getWidth(){return this.side;}
 
