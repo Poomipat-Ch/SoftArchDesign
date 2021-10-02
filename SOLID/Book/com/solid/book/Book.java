@@ -1,12 +1,15 @@
 package Book.com.solid.book;
 
+import Book.com.solid.book.IBook.File;
+import Book.com.solid.book.IBook.Reader;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Book {
+public class Book implements Reader, File {
     private String title;
     private List<String> pages;
     private ListIterator<String> iterator;
