@@ -9,11 +9,11 @@ public class Main {
         Nurse miki = new Nurse("Miki Satohara", 1000);
         Cardiologist keisuke = new Cardiologist("Keisuke Fujiyoshi", 1000);
         Anesthesiologist monji = new Anesthesiologist("Monji Arase", 10000);
-        teamMedicalDragon.addMember(ryutarou);
-        teamMedicalDragon.addMember(miki);
-        teamMedicalDragon.addMember(keisuke);
-        teamMedicalDragon.addMember(monji);
-//        teamMedicalDragon.addMember(ryutarou, miki, keisuke, monji);
+//        teamMedicalDragon.addMember(ryutarou);
+//        teamMedicalDragon.addMember(miki);
+//        teamMedicalDragon.addMember(keisuke);
+//        teamMedicalDragon.addMember(monji);
+        teamMedicalDragon.addMember(ryutarou, miki, keisuke, monji);
 
         System.out.println("================================");
         monji.service();
