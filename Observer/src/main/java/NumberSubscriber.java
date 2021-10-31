@@ -19,12 +19,15 @@ public class NumberSubscriber extends StringSubscriber{
     public void onSubscribe(Flow.Subscription subscription) {
         System.out.println("NumberSubscribed");
         this.subscription = (StringSubscription) subscription;
+    //        this.subscription.request(1);
+
     }
 
     @Override
     public void onNext(String item) {
         System.out.println("Number received");
         this.printWriter.printf("%s\n", item);
+//        this.subscription.request(1);
     }
 
     @Override

@@ -15,19 +15,21 @@ public class AlphabetSubscriber extends StringSubscriber{
 
     @Override
     public boolean isContain(String item) {
-        return item.matches(".*[a-zA-z].*");
+        return item.matches(".*[a-zA-Z].*");
     }
 
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
         System.out.println("AlphabetSubscribed");
         this.subscription = (StringSubscription) subscription;
+//        this.subscription.request(1);
     }
 
     @Override
     public void onNext(String item) {
         System.out.println("Alphabet : received");
         this.printWriter.printf("%s\n", item);
+//        this.subscription.request(1);
     }
 
     @Override

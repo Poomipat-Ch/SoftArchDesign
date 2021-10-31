@@ -11,10 +11,10 @@ public class StringSubscription implements Flow.Subscription {
         this.payloads = new LinkedList<>();
     }
 
-    public void submit(String text) {
-        this.payloads.push(text);
-        this.request(1);
-    }
+//    public void submit(String text) {
+//        this.payloads.push(text);
+//        this.request(1);
+//    }
 
     @Override
     public void request(long n) {
@@ -22,15 +22,17 @@ public class StringSubscription implements Flow.Subscription {
             if (n < 0){
                 IllegalArgumentException ex = new IllegalArgumentException();
                 this.subscriber.onError(ex);
-            } else {
-                if (!this.payloads.isEmpty()) {
-                    this.subscriber.onNext(this.payloads.pop());
-                }
             }
-        }else {
-            this.completed = true;
-            this.subscriber.onComplete();
+//            else {
+//                if (!this.payloads.isEmpty()) {
+//                    this.subscriber.onNext(this.payloads.pop());
+//                }
+//            }
         }
+//        else {
+//            this.completed = true;
+//            this.subscriber.onComplete();
+//        }
     }
 
     @Override

@@ -12,19 +12,21 @@ public class SymbolSubscriber extends StringSubscriber{
 
     @Override
     public boolean isContain(String item){
-        return item.matches(".*[/[!-/:-@{-~!\\\"^_`\\[\\]]/].*");
+        return item.matches(".*[/[!-/:-@{-~\\\"^_`\\[\\]]/].*");
     }
 
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
         System.out.println("SymbolSubscribed");
         this.subscription = (StringSubscription) subscription;
+//        this.subscription.request(1);
     }
 
     @Override
     public void onNext(String item) {
         System.out.println("Symbol received");
         printWriter.printf("%s\n", item);
+//        this.subscription.request(1);
     }
 
     @Override

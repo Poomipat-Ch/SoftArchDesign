@@ -13,14 +13,19 @@ public class StringPublisher implements Flow.Publisher<String> {
 
     public void submit(String text){
         for (int i = subscribers.size() - 1; i >= 0; i--) {
-            if (this.subscribers.get(i).isContain(text))
-                this.subscriptions.get(i).submit(text);
+            if (this.subscribers.get(i).isContain(text)) {
+//                this.subscriptions.get(i).submit(text);
+                this.subscribers.get(i).onNext(text);
+            }
         }
     }
 
     public void finish(){
-        for (StringSubscription subscription : this.subscriptions){
-            subscription.request(0);
+//        for (StringSubscription subscription : this.subscriptions){
+//            subscription.request(0);
+//        }
+        for (StringSubscriber subscriber : this.subscribers){
+            subscriber.onComplete();
         }
     }
 

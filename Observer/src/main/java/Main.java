@@ -1,6 +1,4 @@
-import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.SubmissionPublisher;
 
 public class Main {
     public static void main (String[] arg){
@@ -14,15 +12,14 @@ public class Main {
 
         while (true){
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter your text : ");
+            System.out.print("Enter your text (enter 'q' to exit) : ");
             String text = scanner.nextLine();
             if (!"q".equals(text)){
                 publisher.submit(text);
             } else {
+                publisher.finish();
                 break;
             }
-
         }
-        publisher.finish();
     }
 }
