@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="540px" preserveAspectRatio="none" style="width:1306px;height:540px;background:#FFFFFF;" version="1.1" viewBox="0 0 1306 540" width="1306px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fs25660borhp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[24cac15c1f9aefe6275c5d949d6c000c]
+class SortStrategy--><rect codeLine="2" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="53.8359" id="SortStrategy" style="stroke:#A80036;stroke-width:1.5;" width="222" x="341.53" y="7"/><ellipse cx="414.78" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M415.78,20 L415.78,26 L417.78,26 L418.2644,26 L418.78,26.625 L418.78,27 L418.78,27.375 L418.2644,28 L417.78,28 L411.78,28 L411.2956,28 L410.78,27.375 L410.78,27 L410.78,26.625 L411.2956,26 L411.78,26 L413.78,26 L413.78,20 L411.78,20 L411.2956,20 L410.78,19.375 L410.78,19 L410.78,18.625 L411.2956,18 L411.78,18 L417.78,18 L418.2644,18 L418.78,18.625 L418.78,19 L418.78,19.375 L418.2644,20 L417.78,20 L415.78,20 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="435.28" y="27.9102">SortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.53" x2="562.53" y1="39" y2="39"/><ellipse cx="352.53" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="361.53" y="54.4189">customSort(people : List&lt;Person&gt;) : void</text><!--MD5=[09ce52be0ee7de43c61b6e2d59bf108b]
+class Person--><rect codeLine="5" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="214.0313" id="Person" style="stroke:#A80036;stroke-width:1.5;" width="180" x="1112.53" y="121"/><ellipse cx="1178.28" cy="137" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1180.28,133.5 Q1180.4831,133 1180.7175,132.75 Q1180.9519,132.5 1181.2175,132.5 Q1181.6863,132.5 1181.9831,132.7813 Q1182.28,133.0625 1182.28,133.7188 L1182.28,135.2813 Q1182.28,135.9375 1181.9988,136.2188 Q1181.7175,136.5 1181.28,136.5 Q1180.8894,136.5 1180.6394,136.3281 Q1180.3894,136.1563 1180.28,135.7031 Q1180.2331,135.3906 1180.0613,135.2188 Q1179.7488,134.8906 1179.1863,134.7031 Q1178.6238,134.5 1178.0613,134.5 Q1177.3581,134.5 1176.7644,134.7813 Q1176.1863,135.0625 1175.7331,135.6875 Q1175.28,136.3125 1175.28,137.1719 L1175.28,138.0938 Q1175.28,139.125 1176.1238,139.8125 Q1176.9675,140.5 1178.4675,140.5 Q1179.3581,140.5 1179.9831,140.2969 Q1180.3425,140.1875 1180.7488,139.8281 Q1181.0144,139.625 1181.155,139.5625 Q1181.2956,139.5 1181.4675,139.5 Q1181.7956,139.5 1182.03,139.7656 Q1182.28,140.0156 1182.28,140.375 Q1182.28,140.7188 1181.9363,141.125 Q1181.4363,141.7188 1180.6394,142.0469 Q1179.5925,142.5 1178.3113,142.5 Q1176.8113,142.5 1175.6081,141.9063 Q1174.6394,141.4375 1173.9519,140.4219 Q1173.28,139.4063 1173.28,138.2031 L1173.28,137.1094 Q1173.28,135.8594 1173.8738,134.7656 Q1174.4831,133.6719 1175.53,133.0938 Q1176.5925,132.5 1177.78,132.5 Q1178.4988,132.5 1179.1238,132.75 Q1179.7488,133 1180.28,133.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="1198.78" y="141.9102">Person</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1113.53" x2="1291.53" y1="153" y2="153"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1120.53" y="161"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1132.53" y="168.4189">name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1120.53" y="174.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="1132.53" y="182.2549">age : Integer</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1120.53" y="188.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1132.53" y="196.0908">height : Integer</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1120.53" y="202.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="1132.53" y="209.9268">weight : Integer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1113.53" x2="1291.53" y1="216.3438" y2="216.3438"/><ellipse cx="1123.53" cy="227.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="1132.53" y="231.7627">getName() : String</text><ellipse cx="1123.53" cy="241.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="1132.53" y="245.5986">setName(name : String) : void</text><ellipse cx="1123.53" cy="255.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="1132.53" y="259.4346">getAge() : Integer</text><ellipse cx="1123.53" cy="268.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="1132.53" y="273.2705">setAge(Integer age) : void</text><ellipse cx="1123.53" cy="282.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="1132.53" y="287.1064">getHeight() : Integer</text><ellipse cx="1123.53" cy="296.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="1132.53" y="300.9424">setHeight(Integer height) : void</text><ellipse cx="1123.53" cy="310.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="1132.53" y="314.7783">getWeight() : Integer</text><ellipse cx="1123.53" cy="324.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="1132.53" y="328.6143">setWeight(Integer weight) : void</text><!--MD5=[cf8fdaefc782a1097e8f7fd601adea66]
+class People--><rect codeLine="20" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="131.0156" id="People" style="stroke:#A80036;stroke-width:1.5;" width="269" x="575.03" y="395"/><ellipse cx="685.78" cy="411" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M687.78,407.5 Q687.9831,407 688.2175,406.75 Q688.4519,406.5 688.7175,406.5 Q689.1863,406.5 689.4831,406.7813 Q689.78,407.0625 689.78,407.7188 L689.78,409.2813 Q689.78,409.9375 689.4988,410.2188 Q689.2175,410.5 688.78,410.5 Q688.3894,410.5 688.1394,410.3281 Q687.8894,410.1563 687.78,409.7031 Q687.7331,409.3906 687.5613,409.2188 Q687.2488,408.8906 686.6863,408.7031 Q686.1238,408.5 685.5613,408.5 Q684.8581,408.5 684.2644,408.7813 Q683.6863,409.0625 683.2331,409.6875 Q682.78,410.3125 682.78,411.1719 L682.78,412.0938 Q682.78,413.125 683.6238,413.8125 Q684.4675,414.5 685.9675,414.5 Q686.8581,414.5 687.4831,414.2969 Q687.8425,414.1875 688.2488,413.8281 Q688.5144,413.625 688.655,413.5625 Q688.7956,413.5 688.9675,413.5 Q689.2956,413.5 689.53,413.7656 Q689.78,414.0156 689.78,414.375 Q689.78,414.7188 689.4363,415.125 Q688.9363,415.7188 688.1394,416.0469 Q687.0925,416.5 685.8113,416.5 Q684.3113,416.5 683.1081,415.9063 Q682.1394,415.4375 681.4519,414.4219 Q680.78,413.4063 680.78,412.2031 L680.78,411.1094 Q680.78,409.8594 681.3738,408.7656 Q681.9831,407.6719 683.03,407.0938 Q684.0925,406.5 685.28,406.5 Q685.9988,406.5 686.6238,406.75 Q687.2488,407 687.78,407.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="39" x="706.28" y="415.9102">People</text><line style="stroke:#A80036;stroke-width:1.5;" x1="576.03" x2="843.03" y1="427" y2="427"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="583.03" y="435"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="595.03" y="442.4189">members : List&lt;Person&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="583.03" y="448.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="595.03" y="456.2549">sortStrategy : SortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="576.03" x2="843.03" y1="462.6719" y2="462.6719"/><ellipse cx="586.03" cy="473.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="595.03" y="478.0908">People()</text><ellipse cx="586.03" cy="487.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="595.03" y="491.9268">setSortStrategy(sortStrategy : SortStrategy) : void</text><ellipse cx="586.03" cy="501.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="595.03" y="505.7627">addMember(p : Person) : void</text><ellipse cx="586.03" cy="515.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="595.03" y="519.5986">print(out : PrintStream) : void</text><!--MD5=[8e0a0a9ac050e6d846a9bccac69c9fbb]
+class AgeSortStrategy--><rect codeLine="29" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="53.8359" id="AgeSortStrategy" style="stroke:#A80036;stroke-width:1.5;" width="222" x="84.53" y="201"/><ellipse cx="147.78" cy="217" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M149.78,213.5 Q149.9831,213 150.2175,212.75 Q150.4519,212.5 150.7175,212.5 Q151.1863,212.5 151.4831,212.7813 Q151.78,213.0625 151.78,213.7188 L151.78,215.2813 Q151.78,215.9375 151.4988,216.2188 Q151.2175,216.5 150.78,216.5 Q150.3894,216.5 150.1394,216.3281 Q149.8894,216.1563 149.78,215.7031 Q149.7331,215.3906 149.5613,215.2188 Q149.2488,214.8906 148.6863,214.7031 Q148.1238,214.5 147.5613,214.5 Q146.8581,214.5 146.2644,214.7813 Q145.6863,215.0625 145.2331,215.6875 Q144.78,216.3125 144.78,217.1719 L144.78,218.0938 Q144.78,219.125 145.6238,219.8125 Q146.4675,220.5 147.9675,220.5 Q148.8581,220.5 149.4831,220.2969 Q149.8425,220.1875 150.2488,219.8281 Q150.5144,219.625 150.655,219.5625 Q150.7956,219.5 150.9675,219.5 Q151.2956,219.5 151.53,219.7656 Q151.78,220.0156 151.78,220.375 Q151.78,220.7188 151.4363,221.125 Q150.9363,221.7188 150.1394,222.0469 Q149.0925,222.5 147.8113,222.5 Q146.3113,222.5 145.1081,221.9063 Q144.1394,221.4375 143.4519,220.4219 Q142.78,219.4063 142.78,218.2031 L142.78,217.1094 Q142.78,215.8594 143.3738,214.7656 Q143.9831,213.6719 145.03,213.0938 Q146.0925,212.5 147.28,212.5 Q147.9988,212.5 148.6238,212.75 Q149.2488,213 149.78,213.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="168.28" y="221.9102">AgeSortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="85.53" x2="305.53" y1="233" y2="233"/><ellipse cx="95.53" cy="244" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="104.53" y="248.4189">customSort(people : List&lt;Person&gt;) : void</text><!--MD5=[ae02baf58179ba852507205754c89be4]
+class HeightSortStrategy--><rect codeLine="33" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="53.8359" id="HeightSortStrategy" style="stroke:#A80036;stroke-width:1.5;" width="222" x="341.53" y="201"/><ellipse cx="397.28" cy="217" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M399.28,213.5 Q399.4831,213 399.7175,212.75 Q399.9519,212.5 400.2175,212.5 Q400.6863,212.5 400.9831,212.7813 Q401.28,213.0625 401.28,213.7188 L401.28,215.2813 Q401.28,215.9375 400.9988,216.2188 Q400.7175,216.5 400.28,216.5 Q399.8894,216.5 399.6394,216.3281 Q399.3894,216.1563 399.28,215.7031 Q399.2331,215.3906 399.0613,215.2188 Q398.7488,214.8906 398.1863,214.7031 Q397.6238,214.5 397.0613,214.5 Q396.3581,214.5 395.7644,214.7813 Q395.1863,215.0625 394.7331,215.6875 Q394.28,216.3125 394.28,217.1719 L394.28,218.0938 Q394.28,219.125 395.1238,219.8125 Q395.9675,220.5 397.4675,220.5 Q398.3581,220.5 398.9831,220.2969 Q399.3425,220.1875 399.7488,219.8281 Q400.0144,219.625 400.155,219.5625 Q400.2956,219.5 400.4675,219.5 Q400.7956,219.5 401.03,219.7656 Q401.28,220.0156 401.28,220.375 Q401.28,220.7188 400.9363,221.125 Q400.4363,221.7188 399.6394,222.0469 Q398.5925,222.5 397.3113,222.5 Q395.8113,222.5 394.6081,221.9063 Q393.6394,221.4375 392.9519,220.4219 Q392.28,219.4063 392.28,218.2031 L392.28,217.1094 Q392.28,215.8594 392.8738,214.7656 Q393.4831,213.6719 394.53,213.0938 Q395.5925,212.5 396.78,212.5 Q397.4988,212.5 398.1238,212.75 Q398.7488,213 399.28,213.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="417.78" y="221.9102">HeightSortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.53" x2="562.53" y1="233" y2="233"/><ellipse cx="352.53" cy="244" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="361.53" y="248.4189">customSort(people : List&lt;Person&gt;) : void</text><!--MD5=[6b1b16963de3ac98b715edbb6b5898d8]
+class NameSortStrategy--><rect codeLine="37" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="53.8359" id="NameSortStrategy" style="stroke:#A80036;stroke-width:1.5;" width="222" x="598.53" y="201"/><ellipse cx="655.28" cy="217" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M657.28,213.5 Q657.4831,213 657.7175,212.75 Q657.9519,212.5 658.2175,212.5 Q658.6863,212.5 658.9831,212.7813 Q659.28,213.0625 659.28,213.7188 L659.28,215.2813 Q659.28,215.9375 658.9988,216.2188 Q658.7175,216.5 658.28,216.5 Q657.8894,216.5 657.6394,216.3281 Q657.3894,216.1563 657.28,215.7031 Q657.2331,215.3906 657.0613,215.2188 Q656.7488,214.8906 656.1863,214.7031 Q655.6238,214.5 655.0613,214.5 Q654.3581,214.5 653.7644,214.7813 Q653.1863,215.0625 652.7331,215.6875 Q652.28,216.3125 652.28,217.1719 L652.28,218.0938 Q652.28,219.125 653.1238,219.8125 Q653.9675,220.5 655.4675,220.5 Q656.3581,220.5 656.9831,220.2969 Q657.3425,220.1875 657.7488,219.8281 Q658.0144,219.625 658.155,219.5625 Q658.2956,219.5 658.4675,219.5 Q658.7956,219.5 659.03,219.7656 Q659.28,220.0156 659.28,220.375 Q659.28,220.7188 658.9363,221.125 Q658.4363,221.7188 657.6394,222.0469 Q656.5925,222.5 655.3113,222.5 Q653.8113,222.5 652.6081,221.9063 Q651.6394,221.4375 650.9519,220.4219 Q650.28,219.4063 650.28,218.2031 L650.28,217.1094 Q650.28,215.8594 650.8738,214.7656 Q651.4831,213.6719 652.53,213.0938 Q653.5925,212.5 654.78,212.5 Q655.4988,212.5 656.1238,212.75 Q656.7488,213 657.28,213.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="675.78" y="221.9102">NameSortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="599.53" x2="819.53" y1="233" y2="233"/><ellipse cx="609.53" cy="244" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="618.53" y="248.4189">customSort(people : List&lt;Person&gt;) : void</text><!--MD5=[1267f38af45ef172808e7f12d65c7ed7]
+class WeightSortStrategy--><rect codeLine="41" fill="#FEFECE" filter="url(#f1fs25660borhp)" height="53.8359" id="WeightSortStrategy" style="stroke:#A80036;stroke-width:1.5;" width="222" x="855.53" y="201"/><ellipse cx="910.28" cy="217" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M912.28,213.5 Q912.4831,213 912.7175,212.75 Q912.9519,212.5 913.2175,212.5 Q913.6863,212.5 913.9831,212.7813 Q914.28,213.0625 914.28,213.7188 L914.28,215.2813 Q914.28,215.9375 913.9988,216.2188 Q913.7175,216.5 913.28,216.5 Q912.8894,216.5 912.6394,216.3281 Q912.3894,216.1563 912.28,215.7031 Q912.2331,215.3906 912.0613,215.2188 Q911.7488,214.8906 911.1863,214.7031 Q910.6238,214.5 910.0613,214.5 Q909.3581,214.5 908.7644,214.7813 Q908.1863,215.0625 907.7331,215.6875 Q907.28,216.3125 907.28,217.1719 L907.28,218.0938 Q907.28,219.125 908.1238,219.8125 Q908.9675,220.5 910.4675,220.5 Q911.3581,220.5 911.9831,220.2969 Q912.3425,220.1875 912.7488,219.8281 Q913.0144,219.625 913.155,219.5625 Q913.2956,219.5 913.4675,219.5 Q913.7956,219.5 914.03,219.7656 Q914.28,220.0156 914.28,220.375 Q914.28,220.7188 913.9363,221.125 Q913.4363,221.7188 912.6394,222.0469 Q911.5925,222.5 910.3113,222.5 Q908.8113,222.5 907.6081,221.9063 Q906.6394,221.4375 905.9519,220.4219 Q905.28,219.4063 905.28,218.2031 L905.28,217.1094 Q905.28,215.8594 905.8738,214.7656 Q906.4831,213.6719 907.53,213.0938 Q908.5925,212.5 909.78,212.5 Q910.4988,212.5 911.1238,212.75 Q911.7488,213 912.28,213.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="104" x="930.78" y="221.9102">WeightSortStrategy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="856.53" x2="1076.53" y1="233" y2="233"/><ellipse cx="866.53" cy="244" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="875.53" y="248.4189">customSort(people : List&lt;Person&gt;) : void</text><!--MD5=[52ad52f8e047c32bd8c154980850220b]
+reverse link SortStrategy to AgeSortStrategy--><path codeLine="46" d="M394.28,71.99 C371.82,86.74 346.13,104.18 323.53,121 C288.81,146.84 250.83,178.79 225.33,200.82 " fill="none" id="SortStrategy-backto-AgeSortStrategy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="390.53,66.08,411.11,61.05,398.16,77.82,390.53,66.08" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d0c7a563b171ad5f17e28c7b104f5cab]
+reverse link SortStrategy to HeightSortStrategy--><path codeLine="47" d="M452.53,81.46 C452.53,118.85 452.53,170.07 452.53,200.72 " fill="none" id="SortStrategy-backto-HeightSortStrategy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="445.53,81.29,452.53,61.29,459.53,81.29,445.53,81.29" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0fba23228dfbc735298fb8cc037ac0b1]
+reverse link SortStrategy to NameSortStrategy--><path codeLine="48" d="M510.59,72.31 C532.8,87.02 558.16,104.35 580.53,121 C615.41,146.96 653.7,178.89 679.44,200.88 " fill="none" id="SortStrategy-backto-NameSortStrategy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="506.45,77.96,493.57,61.14,514.14,66.26,506.45,77.96" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9251a9a3a8cc3a1a4707b05f3f2e6bff]
+reverse link SortStrategy to WeightSortStrategy--><path codeLine="49" d="M583.76,48.61 C660.94,60.37 758.72,81.91 838.53,121 C879.21,140.93 918.14,176.28 942.16,200.64 " fill="none" id="SortStrategy-backto-WeightSortStrategy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="582.39,55.49,563.6,45.69,584.39,41.63,582.39,55.49" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6eb594f18f9304928d90fae5e03ac96e]
+reverse link SortStrategy to People--><path codeLine="50" d="M335.97,45.13 C234.95,56.6 99.89,79.38 66.53,121 C7.04,195.21 6,261.63 66.53,335 C129.66,411.53 405.49,441.57 574.71,452.95 " fill="none" id="SortStrategy-backto-People" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="341.05,44.56,331.6605,41.5872,336.0811,45.1169,332.5515,49.5375,341.05,44.56" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f2799bae3813245d2570393a38503c6c]
+reverse link NameSortStrategy to People--><path codeLine="51" d="M709.53,260.77 C709.53,295.14 709.53,350.89 709.53,394.61 " fill="none" id="NameSortStrategy-backto-People" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="709.53,255.44,705.53,264.44,709.53,260.44,713.53,264.44,709.53,255.44" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[08a17b6abc15675cb5ac129c40f1f6ed]
+link Person to People--><path codeLine="52" d="M1101.64,331.13 C1099.61,332.46 1097.58,333.75 1095.53,335 C1022.59,379.35 855.9476,429.5238 855.9476,429.5238 " fill="none" id="Person-People" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="844.32,432.49,851.1226,434.8828,855.9476,429.5238,849.1451,427.131,844.32,432.49" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1112.36,323.63,1102.6939,325.5186,1108.2651,326.4992,1107.2846,332.0704,1112.36,323.63" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1108.2651" x2="1101.71" y1="326.4992" y2="331.085"/><!--MD5=[3baa12888e9a6a1aa0828bfafccc36b8]
+@startuml
+'class Main
+interface SortStrategy {
+ + customSort(people : List<Person>) : void
+}
+class Person {
+    - name : String
+    - age : Integer
+    - height : Integer
+    - weight : Integer
+    +  getName() : String
+    + setName(name : String) : void
+    +  getAge() : Integer
+    +  setAge(Integer age) : void
+    +  getHeight() : Integer
+    +  setHeight(Integer height) : void
+    +  getWeight() : Integer
+    +  setWeight(Integer weight) : void
+}
+
+class People{
+    -  members : List<Person>
+    - sortStrategy : SortStrategy
+    + People()
+    + setSortStrategy(sortStrategy : SortStrategy) : void
+    + addMember(p : Person) : void
+    + print(out : PrintStream) : void
+}
+
+class AgeSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class HeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class NameSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class WeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+'Main -l->People
+SortStrategy <|.. AgeSortStrategy
+SortStrategy <|.. HeightSortStrategy
+SortStrategy <|.. NameSortStrategy
+SortStrategy <|.. WeightSortStrategy
+SortStrategy <- People
+NameSortStrategy <.. People
+Person <- -o People
+
+hide empty members
+@enduml
+
+@startuml
+interface SortStrategy {
+ + customSort(people : List<Person>) : void
+}
+class Person {
+    - name : String
+    - age : Integer
+    - height : Integer
+    - weight : Integer
+    +  getName() : String
+    + setName(name : String) : void
+    +  getAge() : Integer
+    +  setAge(Integer age) : void
+    +  getHeight() : Integer
+    +  setHeight(Integer height) : void
+    +  getWeight() : Integer
+    +  setWeight(Integer weight) : void
+}
+
+class People{
+    -  members : List<Person>
+    - sortStrategy : SortStrategy
+    + People()
+    + setSortStrategy(sortStrategy : SortStrategy) : void
+    + addMember(p : Person) : void
+    + print(out : PrintStream) : void
+}
+
+class AgeSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class HeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class NameSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class WeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+SortStrategy <|.. AgeSortStrategy
+SortStrategy <|.. HeightSortStrategy
+SortStrategy <|.. NameSortStrategy
+SortStrategy <|.. WeightSortStrategy
+SortStrategy <- People
+NameSortStrategy <.. People
+Person <- -o People
+
+hide empty members
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 20:26:11 ICT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

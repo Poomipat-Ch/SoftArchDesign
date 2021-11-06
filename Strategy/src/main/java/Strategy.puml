@@ -1,0 +1,56 @@
+@startuml
+'class Main
+interface SortStrategy {
+ + customSort(people : List<Person>) : void
+}
+class Person {
+    - name : String
+    - age : Integer
+    - height : Integer
+    - weight : Integer
+    +  getName() : String
+    + setName(name : String) : void
+    +  getAge() : Integer
+    +  setAge(Integer age) : void
+    +  getHeight() : Integer
+    +  setHeight(Integer height) : void
+    +  getWeight() : Integer
+    +  setWeight(Integer weight) : void
+}
+
+class People{
+    -  members : List<Person>
+    - sortStrategy : SortStrategy
+    + People()
+    + setSortStrategy(sortStrategy : SortStrategy) : void
+    + addMember(p : Person) : void
+    + print(out : PrintStream) : void
+}
+
+class AgeSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class HeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class NameSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+class WeightSortStrategy{
+    + customSort(people : List<Person>) : void
+}
+
+'Main -l->People
+SortStrategy <|.. AgeSortStrategy
+SortStrategy <|.. HeightSortStrategy
+SortStrategy <|.. NameSortStrategy
+SortStrategy <|.. WeightSortStrategy
+SortStrategy <- People
+NameSortStrategy <.. People
+Person <--o People
+
+hide empty members
+@enduml
