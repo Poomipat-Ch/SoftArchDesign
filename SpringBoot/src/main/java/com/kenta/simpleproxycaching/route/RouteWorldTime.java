@@ -1,21 +1,29 @@
 package com.kenta.simpleproxycaching.route;
-
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/time")
-public class WorldTime {
+public class RouteWorldTime {
+    private final RestTemplate restTemplate = new RestTemplate();
 
-    @GetMapping("/test")
-    public ResponseEntity<WorldTime> getTime(){
-        RestTemplate  restTemplate = new RestTemplate();
-        WorldTime result = restTemplate.getForObject("http://worldtimeapi.org/api/timezone/Asia/Bangkok", WorldTime.class);
-        System.out.println(result);
-        return ResponseEntity.status(HttpStatus.OK).body(result);
+    @Cacheable(value = "worldTime")
+    @RequestMapping(value = "/{area}/{city}", method = RequestMethod.GET)
+    public Object getTime(@PathVariable String area, @PathVariable String city){
+        Object res = null;
+        try {
+           res = restTemplate.getForObject("http://worldtimeapi.org/api/timezone/{area}/{city}", Object.class, area, city);
+        } catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return res;
+    }
+
+    @CacheEvict(value = "worldTime", allEntries = true)
+    @RequestMapping(value = "/clear", method = RequestMethod.DELETE)
+    public String deleteCache(){
+        return "Cache deleted";
     }
 }
