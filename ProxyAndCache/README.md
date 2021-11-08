@@ -1,7 +1,12 @@
 ## API proxy and cache for [WorldTimeAPI](http://worldtimeapi.org)
 
 ### Routing (port = 5678)
-fetch data GET : `localhost:5678/time/{area}/{city}`
+fetch data GET : 
+```
+localhost:5678/time
+localhost:5678/time/{area}
+localhost:5678/time/{area}/{city}
+```
 
 clear cache DELETE : `localhost:5678/time/clear`
 
